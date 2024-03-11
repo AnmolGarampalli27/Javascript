@@ -1,9 +1,0 @@
-{
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/devcontainers-contrib/features/deno:1": {},
-		"ghcr.io/devcontainers-contrib/features/deno-asdf:2": {},
-		"ghcr.io/devcontainers-contrib/features/devcontainers-cli:1": {},
-		"ghcr.io/devcontainers-contrib/features/node-asdf:0": {}
-	}
-}
