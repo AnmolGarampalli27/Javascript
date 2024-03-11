@@ -13,3 +13,17 @@ console.log(valueInNumber);
 //  33 => 33
 //  33abc => Nan [Not a Number]
 // true => 1, false => 0
+
+
+let isLoggedIn = 1;
+let value = Boolean(isLoggedIn);
+console.log(value);
+
+//  1 => true, 0 => false
+// "" => false
+// " " => true
+
+
+let randomNumber = 33;
+let stringValue = String(randomNumber);
+console.log(typeof(stringValue));
