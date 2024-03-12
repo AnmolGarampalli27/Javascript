@@ -1,0 +1,6 @@
+let x = 3;
+let  y = x++;
+
+console.log(x);
+console.log(y);
+// Expected output: "x:4, y:3"

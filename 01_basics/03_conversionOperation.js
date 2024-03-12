@@ -27,3 +27,14 @@ console.log(value);
 let randomNumber = 33;
 let stringValue = String(randomNumber);
 console.log(typeof(stringValue));
+
+
+console.log("///// Operations ///// ")
+
+let numValue = 25;
+let negNumValue = -numValue;
+console.log(negNumValue);
+
+console.log(19+1+"2");
+
+// Type Conversion: https://tc39.es/ecma262/#sec-type-conversion
