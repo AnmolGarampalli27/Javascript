@@ -1,0 +1,10 @@
+const userName = "Anmol Garampalli"
+
+const repoCount = 50;
+
+console.log(`Hello, my name is ${userName} & my repo count is ${repoCount} `);
+
+
+const fullName = new String("Anmol Garampalli");
+
+console.log(fullName.charAt(0));
