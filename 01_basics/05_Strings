@@ -16,4 +16,4 @@ console.log(fullName.toUpperCase());
 
 console.log(fullName.charAt("6"));
 
-console.log(fullName.indexOf("9"));
+console.log(fullName.indexOf("7"));
