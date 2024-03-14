@@ -17,3 +17,24 @@ console.log(fullName.toUpperCase());
 console.log(fullName.charAt("6"));
 
 console.log(fullName.indexOf("7"));
+
+const newSubString = fullName.substring(0, 6);
+console.log(newSubString);
+
+const anotherString = fullName.slice(-8, 3);
+console.log(anotherString);
+
+const sampleText = "      Anmol      ";
+
+console.log(sampleText);
+
+console.log(sampleText.trim());
+
+const url = "https://www.google.com/";
+
+// The %20 we see in the URL is the URL encoding
+//  that converts non-ASCII characters into a format that can be transmitted over the Internet
+
+console.log(url.replace("https", "http"));
+
+// console.log(url);
