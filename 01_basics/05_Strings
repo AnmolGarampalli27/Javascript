@@ -1,10 +1,19 @@
-const userName = "Anmol Garampalli"
+/** @format */
+
+const userName = "Anmol Garampalli";
 
 const repoCount = 50;
 
 console.log(`Hello, my name is ${userName} & my repo count is ${repoCount} `);
 
-
 const fullName = new String("Anmol Garampalli");
 
-console.log(fullName.charAt(0));
+console.log(fullName.length);
+
+console.log(fullName.toLocaleLowerCase());
+
+console.log(fullName.toUpperCase());
+
+console.log(fullName.charAt("6"));
+
+console.log(fullName.indexOf("9"));

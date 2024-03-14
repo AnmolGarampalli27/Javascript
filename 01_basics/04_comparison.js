@@ -1,4 +1,6 @@
-console.log("2" > 1);  //automatic datatype conversion
+/** @format */
+
+console.log("2" > 1); //automatic datatype conversion
 console.log("2" < 1);
 
 console.log(null > 0);
