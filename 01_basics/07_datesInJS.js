@@ -14,3 +14,12 @@ console.log(myDate.toLocaleDateString());
 console.log(myDate.toISOString());
 
 console.log(myDate.toJSON());
+
+console.log(myDate.toLocaleString());
+
+console.log(typeof myDate); // Type is Object because we created a new object
+
+let myCreatedDate = new Date(2024, 11, 23);
+console.log(myCreatedDate.toDateString());
+
+console.log(myCreatedDate.toLocaleString());
