@@ -3,12 +3,12 @@
 const marvelHeroes = ["Thor", "Ironman", "Spiderman"];
 const dcHeroes = ["Superman", "Flash", "Batman"];
 
-marvelHeroes.push(dcHeroes);
+// marvelHeroes.push(dcHeroes);
+
+console.log("Marvel Heroes are " + marvelHeroes);
+
+var herosOfUniverse = marvelHeroes.concat(dcHeroes);
 
 // console.log(marvelHeroes);
 
-marvelHeroes.concat(dcHeroes);
-
-console.log(marvelHeroes);
-
-console.log(marvelHeroes[3][1]);
+console.log("Combined heros of the Universe are " + herosOfUniverse);
