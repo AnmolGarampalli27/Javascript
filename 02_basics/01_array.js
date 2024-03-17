@@ -55,3 +55,12 @@ console.log("A", myArr);
 const myNewArray = myArr.slice(1, 3);
 
 console.log(myNewArray);
+
+const myNewArray2 = myArr.splice(1, 3);
+console.log("B", myNewArray2);
+
+console.log(myArr);
+console.log(myArr2);
+
+console.log(myNewArray);
+console.log(myNewArray2);
