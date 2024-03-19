@@ -24,7 +24,7 @@ console.log(JsUser["email"]);
 console.log(typeof mySym);
 
 
-// Object.freeze(JsUser); // this method helps in freexing the changes to the javascript object
+// Object.freeze(JsUser); // this method helps in freezing the changes to the javascript object
 
 
 JsUser.email="anmol@openai.com" // value will not be changed
