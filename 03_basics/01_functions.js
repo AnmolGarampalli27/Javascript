@@ -9,3 +9,13 @@ function printMyName() {
 }
 
 printMyName();
+
+// Output:
+
+/* 
+A
+N
+M
+O
+L
+*/
