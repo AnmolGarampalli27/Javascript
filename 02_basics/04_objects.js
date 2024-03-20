@@ -49,3 +49,27 @@ const obj5 = Object.assign({}, obj1, obj2, obj3);
 console.log(obj5);
 
 //  In case paranthesis is not used all the elements will be stored in intial array. In this case it will obj1.
+
+const users = [
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+];
+
+users[1].email;
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
