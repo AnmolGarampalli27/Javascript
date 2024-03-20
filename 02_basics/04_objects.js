@@ -39,3 +39,8 @@ const obj2 = {
 const obj3 = { obj1, obj2 };
 console.log(obj3); // O/P: { obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'c', '4': 'd' } }
 // It forms object within an object
+
+const obj4 = Object.assign({}, obj1, obj2); // {} is an optional parameter but it makes sure that the output returned is a new object
+console.log(obj4); // O/P: { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
+// The Object.assign() static method copies all
+//  enumerable own properties from one or more source objects to a target object. It returns the modified target object.
