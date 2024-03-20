@@ -73,3 +73,31 @@ users[1].email;
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+  coursename: "JS in hindi",
+  price: "999",
+  courseInstructor: "Hitesh",
+};
+
+const { coursename, price, courseInstructor: instructor } = course;
+
+// courseInstructor: instructor => This notation helps in renaming the varibales into simpler names for convinience
+
+// The above statement helps in accessing the elements
+// of the objects without having to use the dot notation.
+
+console.log(coursename); // O/P: JS in hindi
+console.log(instructor); //O/P: Hitesh
+
+//  Intro to API & JSON
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[{}, {}, {}];
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
