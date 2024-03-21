@@ -19,3 +19,10 @@ M
 O
 L
 */
+
+function addTwoNumbers(number_a, number_b) {
+  //number_a,b are parameters
+  console.log(number_a + number_b);
+}
+
+addTwoNumbers(1, 2); //O/P:3 1,2 are arguments to the function
