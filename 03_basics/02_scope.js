@@ -46,3 +46,5 @@ if (true) {
   //   console.log(website); // ReferenceError: website is not defined, cannot access the element outside of its scope
 }
 // console.log(username); // ReferenceError: username is not defined, cannot access the element outside of its scope
+
+//  ********* Interesting *********
