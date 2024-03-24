@@ -48,3 +48,21 @@ if (true) {
 // console.log(username); // ReferenceError: username is not defined, cannot access the element outside of its scope
 
 //  ********* Interesting *********
+
+addOne(2);
+
+function addOne(num) {
+  //basic fucntion declarration
+  return num + 1;
+}
+
+// addTwo(2); // ReferenceError: Cannot access 'addTwo' before initialization
+
+const addTwo = function (num) {
+  //decalaraing function as an expression, Javascript is a very powerful language as variables can hold JSON values, functions etc.
+  return num + 2;
+};
+
+addTwo(2);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
