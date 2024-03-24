@@ -48,8 +48,11 @@ console.log(calculateCartPrice(200, 400, 500, 2000)); //O/P: [ 500, 2000 ]
 
 const user = {
   username: "Anmol",
-  price: 199,
-};
+  price: 199
+}
 
-function handleobject(anyobject) {}
-console.log("Username is ${anyobject.username} & price is ${anyobject.price}");
+function handleObject(anyobject){
+  console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+handleObject(user)
