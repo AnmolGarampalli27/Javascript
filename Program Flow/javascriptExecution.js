@@ -14,3 +14,5 @@ function three() {
 one();
 two();
 three();
+
+// In Javascript pushing memory blocks from Global Execution context happens in LIFO: Last In First Out format
