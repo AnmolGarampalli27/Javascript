@@ -13,3 +13,10 @@ if (temperature === 40) {
 
 console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
+
+
+const name = () => {
+  console.log();
+}
+
+name();
