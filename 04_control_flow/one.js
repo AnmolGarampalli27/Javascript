@@ -44,10 +44,27 @@ const debitCard = true;
 const loggedInFromGoogle = false;
 const loggedInFromEmail = true;
 
-if (userLoggedIn && debitCard) { // && operator is used to check if both the condtions, the program control moves into the block of conditon
+if (userLoggedIn && debitCard) {
+  // && operator is used to check if both the condtions, the program control moves into the block of conditon
   console.log("Allow to buy courses");
 }
 
-if (loggedInFromGoogle || loggedInFromEmail) { // || is used to check if any one of the condition present within the statment is true, 
+if (loggedInFromGoogle || loggedInFromEmail) {
+  // || is used to check if any one of the condition present within the statment is true,
   console.log("User logged in successfully");
 }
+
+//  Nullish Coalescing operator (??):null undefined
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing
+
+let val1;
+// val1 = 5 ?? 10;
+// val1 = null ?? undefined;
+val1 = undefined ?? 15;
+
+console.log(val1);
+
+// Ternary Operator
+const iceTeaPrice = 100;
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
