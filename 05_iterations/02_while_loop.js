@@ -22,3 +22,6 @@ do {
   console.log("Score is:" + score);
   score = score + 1;
 } while (score <= 10);
+
+let a = 10;
+console.log(`Using backtics ${a}`);
